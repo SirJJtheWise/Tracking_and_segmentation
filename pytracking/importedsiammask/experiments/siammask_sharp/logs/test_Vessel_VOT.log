@@ -1,0 +1,15 @@
+[2024-05-02 14:08:56,437-rk0-test.py#558] Namespace(arch='Custom', config='config_vot.json', cpu=False, dataset='Vessel_VOT', debug=False, gt=False, log='log_test.txt', mask=True, refine=True, resume='SiamMask_VOT.pth', save_mask=False, video='', visualization=False)
+[2024-05-02 14:08:56,633-rk0-features.py# 66] Current training 0 layers:
+	
+[2024-05-02 14:08:56,634-rk0-features.py# 66] Current training 1 layers:
+	
+[2024-05-02 14:08:56,706-rk0-load_helper.py# 31] load pretrained model from SiamMask_VOT.pth
+[2024-05-02 14:08:58,988-rk0-load_helper.py# 25] remove prefix 'module.'
+[2024-05-02 14:08:58,990-rk0-load_helper.py# 18] used keys:356
+/home/robotics-meta/.local/lib/python3.6/site-packages/torch/nn/functional.py:3509: UserWarning: nn.functional.upsample is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.functional.upsample is deprecated. Use nn.functional.interpolate instead.")
+[2024-05-02 14:09:03,013-rk0-test.py#418] (1) Video: Vessel_0001  Time: 2.4s Speed: 39.7fps Lost: 1
+[2024-05-02 14:09:12,347-rk0-test.py#418] (2) Video: Vessel_0002  Time: 5.6s Speed: 34.6fps Lost: 0
+[2024-05-02 14:09:24,688-rk0-test.py#418] (3) Video: Vessel_0003  Time: 7.1s Speed: 35.2fps Lost: 0
+[2024-05-02 14:09:24,688-rk0-test.py#605] Total Lost: 1
+[2024-05-02 14:09:24,688-rk0-test.py#607] Mean Speed: 36.48 FPS

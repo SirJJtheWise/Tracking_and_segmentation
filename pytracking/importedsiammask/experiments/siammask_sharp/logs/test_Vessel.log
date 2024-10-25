@@ -1,0 +1,9 @@
+[2024-05-02 11:17:29,048-rk0-test.py#558] Namespace(arch='Custom', config='config_vot.json', cpu=False, dataset='Vessel', debug=False, gt=False, log='log_test.txt', mask=True, refine=True, resume='SiamMask_VOT.pth', save_mask=False, video='', visualization=False)
+[2024-05-02 11:17:29,247-rk0-features.py# 66] Current training 0 layers:
+	
+[2024-05-02 11:17:29,248-rk0-features.py# 66] Current training 1 layers:
+	
+[2024-05-02 11:17:29,312-rk0-load_helper.py# 31] load pretrained model from SiamMask_VOT.pth
+[2024-05-02 11:17:31,389-rk0-load_helper.py# 25] remove prefix 'module.'
+[2024-05-02 11:17:31,391-rk0-load_helper.py# 18] used keys:356
+ERROR:root:Not support

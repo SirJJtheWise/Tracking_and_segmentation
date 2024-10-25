@@ -1,0 +1,13 @@
+[2024-05-02 11:16:31,983-rk0-test.py#558] Namespace(arch='Custom', config='config_vot.json', cpu=False, dataset='VOT2016', debug=False, gt=False, log='log_test.txt', mask=True, refine=True, resume='SiamMask_VOT.pth', save_mask=False, video='', visualization=False)
+[2024-05-02 11:16:32,179-rk0-features.py# 66] Current training 0 layers:
+	
+[2024-05-02 11:16:32,180-rk0-features.py# 66] Current training 1 layers:
+	
+[2024-05-02 11:16:32,249-rk0-load_helper.py# 31] load pretrained model from SiamMask_VOT.pth
+[2024-05-02 11:16:34,382-rk0-load_helper.py# 25] remove prefix 'module.'
+[2024-05-02 11:16:34,384-rk0-load_helper.py# 18] used keys:356
+/home/robotics-meta/.local/lib/python3.6/site-packages/torch/nn/functional.py:3509: UserWarning: nn.functional.upsample is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.functional.upsample is deprecated. Use nn.functional.interpolate instead.")
+[2024-05-02 11:16:41,415-rk0-test.py#418] (1) Video: bag          Time: 5.0s Speed: 39.0fps Lost: 0
+[2024-05-02 11:16:48,010-rk0-test.py#418] (2) Video: ball1        Time: 3.1s Speed: 33.4fps Lost: 0
+[2024-05-02 11:16:50,523-rk0-test.py#418] (3) Video: ball2        Time: 1.3s Speed: 31.3fps Lost: 0

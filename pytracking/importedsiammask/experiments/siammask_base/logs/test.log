@@ -1,0 +1,12 @@
+[2024-05-02 13:59:37,508-rk0-test.py#558] Namespace(arch='Custom', config='config.json', cpu=False, dataset='VOT2018', debug=False, gt=False, log='log_test.txt', mask=True, refine=False, resume='snapshot/checkpoint_e5.pth', save_mask=False, video='', visualization=False)
+[2024-05-02 13:59:38,049-rk0-features.py# 66] Current training 0 layers:
+	
+[2024-05-02 13:59:38,051-rk0-features.py# 66] Current training 1 layers:
+	
+Traceback (most recent call last):
+  File "/home/robotics-meta/Desktop/Jason/SiamMask/tools/test.py", line 611, in <module>
+    main()
+  File "/home/robotics-meta/Desktop/Jason/SiamMask/tools/test.py", line 568, in main
+    assert isfile(args.resume), '{} is not a valid file'.format(args.resume)
+AssertionError: snapshot/checkpoint_e5.pth is not a valid file
+e

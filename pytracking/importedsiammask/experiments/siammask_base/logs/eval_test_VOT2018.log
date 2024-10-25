@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/robotics-meta/Desktop/Jason/SiamMask/tools/eval.py", line 32, in <module>
+    assert len(trackers) > 0
+AssertionError

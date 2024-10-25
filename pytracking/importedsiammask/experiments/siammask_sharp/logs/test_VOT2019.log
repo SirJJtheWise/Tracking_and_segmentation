@@ -1,0 +1,7 @@
+[2024-04-29 22:00:10,717-rk0-test.py#555] Namespace(arch='Custom', config='config_vot.json', cpu=False, dataset='VOT2019', debug=False, gt=False, log='log_test.txt', mask=True, refine=True, resume='SiamMask_VOT.pth', save_mask=False, video='', visualization=False)
+Traceback (most recent call last):
+  File "/home/robotics-meta/Desktop/Jason/SiamMask/tools/test.py", line 608, in <module>
+    main()
+  File "/home/robotics-meta/Desktop/Jason/SiamMask/tools/test.py", line 559, in main
+    from custom import Custom
+ModuleNotFoundError: No module named 'custom'
